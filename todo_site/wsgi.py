@@ -1,5 +1,5 @@
 """
-WSGI config for todo_site project.
+WSGI config for MyFirstDjangoApplication project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,8 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todo_site.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'newproject')
 
 application = get_wsgi_application()
-
-app = application
